@@ -37,7 +37,7 @@ I have used a custom function within the file [core/functions.py] that can be us
 #### Count Total Objects
 To count total objects all that is needed is to add the custom flag "--count" to your detect.py or detect_video.py command.
 ```
-# Run yolov4 model while counting total objects detected
+# Run Face Mask model while counting total Masks detected
 python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/dog.jpg --count
 ```
 
@@ -45,7 +45,7 @@ python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --
 To count the number of objects for each individual class of your object detector you need to add the custom flag "--count" as well as change one line in the detect.py or detect_video.py script. By default the count_objects function has a parameter called <strong>by_class</strong> that is set to False. If you change this parameter to <strong>True</strong> it will count per class instead.
 
 ```
-# Run yolov4 model while counting objects per class
+# Run Face Mask model while counting Masks
 python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/image.jpg --count
 ```
 
@@ -58,9 +58,16 @@ python detect.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --
 python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --video ./data/video/<input_path>.mp4 --output ./detections/<output>.avi --plate
 ```
   
-  
+'''  
 ## Output Video
 Please check it out: https://drive.google.com/file/d/12WBQbr-tL8ZS5-cbtzoR6Qn67KaTc5xK/view?usp=sharing
+'''
+
+'''
+## Example Detection
+
+<img src="detections/detection1.png">
+'''
 
 ## Command Line Args Reference
 
