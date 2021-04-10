@@ -57,17 +57,15 @@ python detect.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --
 ```
 python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --video ./data/video/<input_path>.mp4 --output ./detections/<output>.avi --plate
 ```
-  
-'''  
-## Output Video
+ ``` 
+## Example Mask Detection and Counting Video
 Please check it out: https://drive.google.com/file/d/12WBQbr-tL8ZS5-cbtzoR6Qn67KaTc5xK/view?usp=sharing
-'''
-
-'''
-## Example Detection
+```
+```
+## Example Simple Mask Detection
 
 <img src="detections/detection1.png">
-'''
+```
 
 ## Command Line Args Reference
 
