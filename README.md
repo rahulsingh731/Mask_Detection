@@ -48,12 +48,6 @@ To count the number of objects for each individual class of your object detector
 # Run yolov4 model while counting objects per class
 python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/image.jpg --count
 ```
-Running the above command will count the number of objects detected per class and output it to your command prompt or shell as well as on the saved detection as so:
-<p align="center"><img src="data/helpers/perclass_count.png" width="640"\></p>
-
-<strong>Note:</strong> You can add the --count flag to detect_video.py commands as well!
-
-<a name="info"/>
 
 ```
 # Run Face Mask Detection
@@ -63,6 +57,10 @@ python detect.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --
 ```
 python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --video ./data/video/<input_path>.mp4 --output ./detections/<output>.avi --plate
 ```
+  
+  
+## Output Video
+Please check it out: https://drive.google.com/file/d/12WBQbr-tL8ZS5-cbtzoR6Qn67KaTc5xK/view?usp=sharing
 
 ## Command Line Args Reference
 
