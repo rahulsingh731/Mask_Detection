@@ -130,4 +130,4 @@ detect_video.py:
 ### References  
 
    Huge shoutout goes to theAIGuysCode for creating the backbone of this repository:
-  * [yolov4-custom-functions](=https://github.com/theAIGuysCode/yolov4-custom-functions)
+  * [yolov4-custom-functions](https://github.com/theAIGuysCode/yolov4-custom-functions)
